@@ -287,3 +287,77 @@ Conclusion
 Looping statements in Java are essential for performing repetitive tasks efficiently. The three main loops — for, while, and do-while — help programmers control program flow and reduce redundant code.
 
 If you want, I can also give a more professional GitHub README version (with emojis, formatting, and examples) that looks better in repositories.
+
+//PATTERN PRINTING (*)
+
+Half Pyramid Pattern
+
+A Half Pyramid Pattern prints stars (*) in the shape of a right-angled triangle.
+The number of stars increases in each row.
+
+Example Output
+*
+* *
+* * *
+* * * *
+* * * * *
+Logic
+
+Use an outer loop to control the number of rows.
+
+Use an inner loop to print stars in each row.
+
+For every row i, print i stars.
+
+Java Code
+public class HalfPyramid {
+    public static void main(String[] args) {
+        int n = 5;
+
+        for(int i = 1; i <= n; i++) {
+            for(int j = 1; j <= i; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+}
+Time Complexity
+
+O(n²)
+
+2. Reversed Half Pyramid Pattern
+
+A Reversed Half Pyramid Pattern prints stars in decreasing order.
+The number of stars decreases in each row.
+
+Example Output
+* * * * *
+* * * *
+* * *
+* *
+*
+Logic
+
+The outer loop controls rows.
+
+The inner loop prints stars.
+
+For every row i, print n - i + 1 stars.
+
+Java Code
+public class ReverseHalfPyramid {
+    public static void main(String[] args) {
+        int n = 5;
+
+        for(int i = n; i >= 1; i--) {
+            for(int j = 1; j <= i; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+}
+Time Complexity
+
+O(n²)
