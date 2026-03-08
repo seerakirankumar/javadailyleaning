@@ -47,15 +47,15 @@ package javadailylearning;
 
 //printing  half pyramid
 
-    // int n = 4;
-    // for(int i = 1; i<=n; i++){
-    //   for(int j=1; j<=i;j++){
-    //     System.out.print("*");
+    int n = 4;
+    for(int i = 1; i<=n; i++){
+      for(int j=1; j<=i;j++){
+        System.out.print("*");
 
 
-    //   }
-    //   System.out.println(" ");
-    // }
+      }
+      System.out.println(" ");
+    }
 //inverted half pyramid
     int m = 4;
     for(int i=m; i>=1; i--){
