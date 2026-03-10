@@ -69,17 +69,45 @@ package javadailylearning;
 
 //inverted half pyramid (rotated by 180 degrees)
 
-int t=4;
-for(int i=1;i<=t;i++){
-  for(int j=i ;j<=t-1; j++){
-    System.out.print(" ");
+// int t=4;
+// for(int i=1;i<=t;i++){
+//   for(int j=i ;j<=t-1; j++){
+//     System.out.print(" ");
 
-  }
-  for(int j=1;j<=i;j++){
-    System.out.print("*");
+//   }
+//   for(int j=1;j<=i;j++){
+//     System.out.print("*");
+//   }
+//   System.out.println();
+// }
+ 
+//     }
+//   }
+// printing the pattern (half pyramid with numbers)
+
+// int n = 5;
+// for(int i=1;i<=n;i++){
+//   for(int j=1;j<=i;j++){
+//     System.out.print(j+" ");
+//   }
+//   System.out.println();
+
+// }
+//     }
+//   }
+
+//printing the inverted pattern
+
+int a = 5;
+for(int i=1;i<=a;i++){
+  for(int j=1;j<=a-i+1;j++){
+    System.out.print(j+ " ");
+
+
   }
   System.out.println();
 }
- 
     }
   }
+
+

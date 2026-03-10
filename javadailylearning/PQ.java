@@ -78,10 +78,10 @@ public class PQ{
 // //DAY 3 PQ
 
 // //using loops(printing the first n even numbers)
- package javadailylearning;
+//  package javadailylearning;
 
 
-import java.util.*;
+// import java.util.*;
 
 public class PQ{
    public static void main(String[] args){
