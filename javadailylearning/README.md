@@ -361,3 +361,40 @@ public class ReverseHalfPyramid {
 Time Complexity
 
 O(n²)
+
+//
+Java Daily Practice – Today’s Progress
+
+Today I practiced several basic Java programming problems to improve my understanding of logic building, loops, conditions, and string manipulation. These exercises helped me strengthen my problem-solving skills and coding confidence.
+
+✅ Topics Practiced
+
+ASCII Values – Learned how to work with character encoding and convert characters to their ASCII values.
+
+Department Details Program – Practiced handling input and displaying structured information.
+
+IPL Finals Problem – Worked with conditional statements and logical comparisons.
+
+ASCII Art – Used loops and print statements to generate patterns and shapes.
+
+Form the Table – Implemented loops to generate multiplication tables.
+
+Formation Programs – Practiced pattern logic and nested loops.
+
+Sum of Two Numbers – Implemented basic arithmetic operations with user input.
+
+Simple Calculator – Built a basic calculator using conditional statements.
+
+Concatenate Two Strings – Learned how to combine strings in Java.
+
+Convert Minutes – Practiced mathematical conversions and output formatting.
+
+🚀 What I Learned
+
+Improved understanding of Java syntax and basic programming concepts.
+
+Strengthened logical thinking and problem-solving skills.
+
+Gained more confidence in using loops, conditions, and user input handling.
+
+📌 Consistent daily practice is helping me build a strong foundation in Java programming.
