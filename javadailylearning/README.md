@@ -1,5 +1,5 @@
 # javadailyleaning
-# Java Daily Learning - Day 1
+
 
 ## Introduction to Java
 
@@ -12,7 +12,7 @@ Java is widely used because it is **secure, platform-independent, and easy to le
 
 ---
 
-## Topics Covered (Day 1)
+## Topics Covered 
 
 * What is Java
 * History of Java
@@ -52,7 +52,7 @@ Hello, Java!
 ## Conclusion
 
 On Day 1, I learned the **basic introduction to Java**, how to install Java, and how to write and run a simple Java program.
-# Day 2 – Conditional Statements in Java
+
 
 ## Introduction
 
@@ -398,3 +398,38 @@ Strengthened logical thinking and problem-solving skills.
 Gained more confidence in using loops, conditions, and user input handling.
 
 📌 Consistent daily practice is helping me build a strong foundation in Java programming.
+
+
+//The 0-1 Triangle prints a triangular pattern using only 0s and 1s.
+
+The value printed depends on the sum of row and column indices:
+
+If (row + column) is even → print 1
+
+If (row + column) is odd → print 0
+
+For n = 5, the output will be:
+
+1
+0 1
+1 0 1
+0 1 0 1
+1 0 1 0 1
+
+
+
+//The 0-1 Triangle prints a triangular pattern using only 0s and 1s.
+
+The value printed depends on the sum of row and column indices:
+
+If (row + column) is even → print 1
+
+If (row + column) is odd → print 0
+
+For n = 5, the output will be:
+
+1
+0 1
+1 0 1
+0 1 0 1
+1 0 1 0 1

@@ -35,46 +35,46 @@ import java.util.*;
 }
 
 //printing the months 1-12
-public class PQ{
-    public void main(String[] args) {
+//public class PQ{
+    // public void main(String[] args) {
 
 
-    Scanner sc = new Scanner(System.in);
+    // Scanner sc = new Scanner(System.in);
 
-    int month = sc.nextInt();
-    switch(month){
+    // int month = sc.nextInt();
+    // switch(month){
 
-        case 1 :System.out.println("january");
-        break;
-         case 2 :System.out.println("feb");
-        break;
-         case 3 :System.out.println("march");
-        break;
-         case 4 :System.out.println("april");
-        break;
-         case  5:System.out.println("may");
-        break;
-         case 6:System.out.println("june");
-        break;
-         case 7 :System.out.println("july");
-        break;
-         case 8 :System.out.println("aug");
-        break;
-         case 9 :System.out.println("sep");
-        break;
+    //     case 1 :System.out.println("january");
+    //     break;
+    //      case 2 :System.out.println("feb");
+    //     break;
+    //      case 3 :System.out.println("march");
+    //     break;
+    //      case 4 :System.out.println("april");
+    //     break;
+    //      case  5:System.out.println("may");
+    //     break;
+    //      case 6:System.out.println("june");
+    //     break;
+    //      case 7 :System.out.println("july");
+    //     break;
+    //      case 8 :System.out.println("aug");
+    //     break;
+    //      case 9 :System.out.println("sep");
+    //     break;
 
-         case 10 :System.out.println("oct");
-        break;
-         case 11:System.out.println("nov");
-        break;
-         case 12:System.out.println("dec");
-        break;
+    //      case 10 :System.out.println("oct");
+    //     break;
+    //      case 11:System.out.println("nov");
+    //     break;
+    //      case 12:System.out.println("dec");
+    //     break;
          
-        default:System.out.println("invalid month number entered");
+    //     default:System.out.println("invalid month number entered");
     
 
-    }
-
+    // }
+    // }}
 // //DAY 3 PQ
 
 // //using loops(printing the first n even numbers)
@@ -83,23 +83,23 @@ public class PQ{
 
 // import java.util.*;
 
-public class PQ{
-   public static void main(String[] args){
-    Scanner sc = new Scanner(System.in);
+// public class PQ{
+//    public static void main(String[] args){
+//     Scanner sc = new Scanner(System.in);
 
-    int n = sc.nextInt();
+//     int n = sc.nextInt();
 
 
 
-    for(int i=0; i<n; i++){
+//     for(int i=0; i<n; i++){
 
-        if(i%2 == 0){
-            System.out.println(i + " ");
+//         if(i%2 == 0){
+//             System.out.println(i + " ");
 
-        }
-    }
-   }
-}
+//         }
+//     }
+//    }
+// }
 
 // //
    
@@ -113,37 +113,37 @@ public class PQ{
 // 	Because marks don’t matter but our effort does.
 // (Hint : use do-while loop but think & understand why)*/
 
-public class PQ{
+// public class PQ{
 
-public static void main(String[] args){
+// public static void main(String[] args){
 
-Scanner sc = new Scanner(System.in);
+// Scanner sc = new Scanner(System.in);
 
-int input = sc.nextInt();
+// int input = sc.nextInt();
 
-if(input == 1){
-    System.out.println("Enter your marks :");
-    int marks = sc.nextInt();
+// if(input == 1){
+//     System.out.println("Enter your marks :");
+//     int marks = sc.nextInt();
 
-    if(marks >= 90){
-        System.out.println("This is Good");
-    }
-    else if(marks >=60 && marks<=80){
-        System.out.println("this is also good");
+//     if(marks >= 90){
+//         System.out.println("This is Good");
+//     }
+//     else if(marks >=60 && marks<=80){
+//         System.out.println("this is also good");
 
-    }
-    else if(marks >= 0 && marks<= 59){
-        System.out.println("this good as well");
-    }
-    else{
-        System.out.println("you enterd invalid marks !! renter the correct marks");
-    }
+//     }
+//     else if(marks >= 0 && marks<= 59){
+//         System.out.println("this good as well");
+//     }
+//     else{
+//         System.out.println("you enterd invalid marks !! renter the correct marks");
+//     }
 
-if(input != 0){
-    System.out.println("your not able to check the marks");
-}
+// if(input != 0){
+//     System.out.println("your not able to check the marks");
+// }
 
-}
-}
-}
+// }
+// }
+// }
 

@@ -96,18 +96,52 @@ package javadailylearning;
 //     }
 //   }
 
-//printing the inverted pattern
+// //printing the inverted pattern
 
-int a = 5;
-for(int i=1;i<=a;i++){
-  for(int j=1;j<=a-i+1;j++){
-    System.out.print(j+ " ");
+// int a = 5;
+// for(int i=1;i<=a;i++){
+//   for(int j=1;j<=a-i+1;j++){
+//     System.out.print(j+ " ");
 
 
+//   }
+//   System.out.println();
+// }
+//     }
+//   }
+
+//printing the pattern (n=5)"floyd triangle"
+// int n=5;
+// int number=1;
+// for(int i=1;i<=n;i++){
+//   for(int j=1;j<=i;j++){
+//     System.err.print(number+" ");
+//     number++;
+//   }
+//   System.out.println();
+// }
+
+
+
+//     }
+//   }
+
+//printing the pattern (0-1 triangle)
+
+int y=5;
+for(int i=1;i<=y;i++){
+  for(int j=1;j<=i;j++){
+    int sum =i+j;
+    if(sum%2 ==0){
+      System.out.print("1");
+    }else{
+      System.out.print("0");
+    }
+    
   }
   System.out.println();
 }
-    }
-  }
 
 
+}
+}
