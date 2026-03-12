@@ -42,12 +42,13 @@ public class bytexlpq {
 //     }
 //   }
 //Form the Table
-   Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    System.out.println("Multiplication Table of " +n+":");
-    for(int i=1;i<=10;i++){
-      System.out.println(n+" x "+i+" = "+n*i);
-    }
-}
+//    Scanner sc = new Scanner(System.in);
+//     int n = sc.nextInt();
+//     System.out.println("Multiplication Table of " +n+":");
+//     for(int i=1;i<=10;i++){
+//       System.out.println(n+" x "+i+" = "+n*i);
+//     }
+// }
     
 
+}
