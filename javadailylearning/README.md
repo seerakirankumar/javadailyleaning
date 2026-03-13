@@ -433,3 +433,84 @@ For n = 5, the output will be:
 1 0 1
 0 1 0 1
 1 0 1 0 1
+//13-03-2026
+1. Number Pyramid Pattern
+
+The Number Pyramid Pattern prints numbers in a pyramid shape.
+Each row prints the same number multiple times, and spaces are used to align the pyramid.
+
+Example Output:
+
+    1
+   2 2
+  3 3 3
+ 4 4 4 4
+5 5 5 5 5
+
+
+Concepts used:
+
+Nested for loops
+
+Space formatting
+
+Basic pattern logic
+
+2. Palindromic Number Pattern
+
+The Palindromic Pattern prints numbers in a pyramid where the numbers read the same forward and backward.
+
+Example Output:
+
+     1
+    212
+   32123
+  4321234
+ 543212345
+65432123456
+
+
+Concepts used:
+
+Nested loops
+
+Reverse and forward printing
+
+Palindrome logic
+
+3. Diamond Star Pattern
+
+The Diamond Pattern prints stars (*) in the shape of a diamond.
+It is created by combining an upper pyramid and a lower inverted pyramid.
+
+Example Output:
+
+   *
+  ***
+ *****
+*******
+*******
+ *****
+  ***
+   *
+
+
+Concepts used:
+
+Nested loops
+
+Space alignment
+
+Pyramid and inverted pyramid patterns
+
+Conclusion
+
+These pattern programs help beginners practice:
+
+Loops
+
+Nested loops
+
+Logic building in Java
+
+Practicing pattern problems improves coding skills and logical thinking.
