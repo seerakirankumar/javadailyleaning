@@ -4,8 +4,8 @@ import java.util.*;
 public class bytexlpq {
 
 
-// //   public static void main(String[] args){
-// //     Scanner sc=new Scanner(System.in);
+ public static void main(String[] args){
+  Scanner sc=new Scanner(System.in);
 // //     String a=sc.nextLine();
 // //     String b=sc.nextLine();
     
@@ -49,6 +49,15 @@ public class bytexlpq {
 //       System.out.println(n+" x "+i+" = "+n*i);
 //     }
 // }
-    
 
+
+    int n = sc.nextInt();
+    System.out.println("Multiplication Table of " +n+":");
+    for(int i=1;i<=10;i++){
+      System.out.println(n+" x "+i+" = "+n*i);
+    }
+      
+    
+  }
 }
+
