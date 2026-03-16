@@ -514,3 +514,51 @@ Nested loops
 Logic building in Java
 
 Practicing pattern problems improves coding skills and logical thinking.
+
+<<<<<<<<<<Functions in Java>>>>>>>>>>
+
+A function (method) in Java is a block of code that performs a specific task. It helps make the program organized, reusable, and easier to understand.
+
+Instead of writing the same code multiple times, we can create a function and call it whenever needed.
+
+Syntax
+returnType functionName(parameters) {
+    // code
+}
+Example
+public class Example {
+
+    static int add(int a, int b) {
+        return a + b;
+    }
+
+    public static void main(String[] args) {
+        int result = add(5, 10);
+        System.out.println(result);
+    }
+}
+<<<<<<<<<<<<<<<<Time Complexity>>>>>>>>>>>>>>>>>>>
+
+Time Complexity describes how the running time of an algorithm increases as the input size grows.
+It is usually expressed using Big-O notation.
+
+Example:
+
+for(int i = 0; i < n; i++) {
+    System.out.println(i);
+}
+
+Time Complexity: O(n)
+
+<<<<<<<<<<<<<<Space Complexity>>>>>>>>>>>>>>>>>>
+
+Space Complexity measures the amount of memory used by an algorithm.
+
+Example:
+
+int sum = 0;
+for(int i = 0; i < n; i++) {
+    sum += i;
+}
+
+Space Complexity: O(1) (constant memory)
