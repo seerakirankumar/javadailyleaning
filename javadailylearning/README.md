@@ -562,3 +562,25 @@ for(int i = 0; i < n; i++) {
 }
 
 Space Complexity: O(1) (constant memory)
+
+
+<<<<<<<<<<<<ARRAYS IN JAVA>>>>>>>>>>>>
+
+Arrays in Programming
+📌 What is an Array?
+
+An array is a data structure used to store multiple values of the same data type in a single variable.
+Instead of creating separate variables, arrays help organize data efficiently.
+
+🔹 Example (Java)
+int[] numbers = {10, 20, 30, 40, 50};
+System.out.println(numbers[0]); // Output: 10
+🔹 Key Features
+
+Stores multiple elements in one variable
+
+Elements are accessed using index (0-based)
+
+Fixed size (in most languages like Java)
+
+Faster access using index
