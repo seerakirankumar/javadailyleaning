@@ -584,3 +584,31 @@ Elements are accessed using index (0-based)
 Fixed size (in most languages like Java)
 
 Faster access using index
+<<<<<2D Arrays in Java>>>>>
+
+A 2D array (two-dimensional array) in Java is used to store data in a tabular form (rows and columns). It is also called a matrix.
+
+🧠 Declaration
+int[][] arr;
+🏗️ Initialization
+int[][] arr = new int[3][3]; // 3 rows and 3 columns
+✍️ Initialization with Values
+int[][] arr = {
+    {1, 2, 3},
+    {4, 5, 6},
+    {7, 8, 9}
+};
+🔄 Accessing Elements
+System.out.println(arr[0][1]); // Output: 2
+
+First index → Row
+
+Second index → Column
+
+🔁 Traversing 2D Array
+for (int i = 0; i < arr.length; i++) {
+    for (int j = 0; j < arr[i].length; j++) {
+        System.out.print(arr[i][j] + " ");
+    }
+    System.out.println();
+}
