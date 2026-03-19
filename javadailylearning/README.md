@@ -612,3 +612,62 @@ for (int i = 0; i < arr.length; i++) {
     }
     System.out.println();
 }
+
+
+📌 Java Strings – Basic Concepts
+🔹 What is a String?
+
+A String in Java is used to store text. It is a sequence of characters like names, sentences, or any textual data.
+
+🔹 String Initialization
+
+Strings are created by assigning text values. They are widely used to store user input, names, and messages in programs.
+
+🔹 String Concatenation
+
+Concatenation means joining multiple strings into one.
+It is commonly used to combine first name and last name into a full name.
+
+🔹 String Length
+
+The length of a string tells how many characters it contains, including spaces.
+This is useful when you need to loop through a string or validate input size.
+
+🔹 Substring
+
+A substring is a part of a string.
+It allows you to extract specific portions of text from a larger string.
+
+🔹 charAt()
+
+This is used to access a single character from a string at a specific position.
+It is helpful when processing strings character by character.
+
+🔹 compareTo()
+
+This method is used to compare two strings:
+
+If both are equal → result is 0
+
+If not equal → result is positive or negative
+
+It is useful for sorting and checking equality.
+
+🔹 Looping Through a String
+
+You can go through each character of a string one by one.
+This is useful for tasks like counting characters, checking patterns, or modifying text.
+
+✅ Summary
+
+Strings are used to store text data
+
+Concatenation joins strings
+
+Length gives total characters
+
+Substring extracts parts of text
+
+charAt accesses individual characters
+
+compareTo compares two strings
