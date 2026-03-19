@@ -623,6 +623,7 @@ A String in Java is used to store text. It is a sequence of characters like name
 
 Strings are created by assigning text values. They are widely used to store user input, names, and messages in programs.
 
+
 🔹 String Concatenation
 
 Concatenation means joining multiple strings into one.
