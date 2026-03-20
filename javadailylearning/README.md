@@ -675,7 +675,7 @@ compareTo compares two strings
 
 
 
-<<<<<<<<<<<<<<<<<<<<<<StringBuilder in Java>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+////////////////StringBuilder////////////
 
 ..>>>StringBuilder is a class in Java used to create and modify strings dynamically (mutable).
 
