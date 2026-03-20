@@ -672,3 +672,44 @@ Substring extracts parts of text
 charAt accesses individual characters
 
 compareTo compares two strings
+
+
+
+<<<<<<<<<<<<<<<<<<<<<<StringBuilder in Java>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+..>>>StringBuilder is a class in Java used to create and modify strings dynamically (mutable).
+
+>>>>>StringBuilder is a mutable sequence of characters, meaning you can change the content without creating a new object.
+
+>>>>Why StringBuilder is Used?
+
+In Java, normal String objects are immutable (cannot be changed).
+So whenever you modify a string, a new object is created → this is slower and uses more memory.
+
+StringBuilder solves this problem by allowing in-place modification.
+
+>>>Key Features
+
+Mutable → content can be changed
+
+Efficient → faster than String for multiple changes
+
+Dynamic size → automatically grows when needed
+
+>>>Works well for:
+
+String reversal
+
+Appending/adding characters
+
+Editing strings frequently
+
+Common Operations (Concept)
+
+Access characters
+
+Modify characters
+
+Insert or delete characters
+
+Reverse a string
