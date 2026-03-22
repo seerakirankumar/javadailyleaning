@@ -6,7 +6,7 @@ public class Strings {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         //declaration of  a String
-        String name="kiran";
+        String name="seera";
         System.out.println(name);
 
         // string concatenation

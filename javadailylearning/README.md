@@ -713,3 +713,92 @@ Modify characters
 Insert or delete characters
 
 Reverse a string
+
+<<<<<<<<<<<<<<<<<<OPEARATORS>>>>>>>>>>>>>>>>>>
+
+Java operators are symbols used to perform operations on variables and values.
+
+1. Arithmetic Operators
+
+Used for basic mathematical operations.
+
++ → Addition
+- → Subtraction
+* → Multiplication
+/ → Division
+% → Modulus (remainder)
+
+👉 Example:
+a + b, a % b
+
+2. Relational (Comparison) Operators
+
+Used to compare two values. Returns true/false.
+
+== → Equal to
+!= → Not equal
+> → Greater than
+< → Less than
+>= → Greater than or equal
+<= → Less than or equal
+3. Logical Operators
+
+Used to combine conditions.
+
+&& → AND (both true)
+|| → OR (any one true)
+! → NOT (reverse condition)
+4. Assignment Operators
+
+Used to assign values.
+
+= → Assign
++= → Add and assign
+-= → Subtract and assign
+*= → Multiply and assign
+/= → Divide and assign
+5. Unary Operators
+
+Operate on a single variable.
+
++ → Positive
+- → Negative
+++ → Increment
+-- → Decrement
+6. Bitwise Operators
+
+Work at the binary level.
+
+& → AND
+| → OR
+^ → XOR
+~ → NOT
+<< → Left shift
+>> → Right shift
+🔹 Binary Number System
+
+The binary number system is a base-2 number system used by computers.
+
+Key Points:
+Uses only two digits: 0 and 1
+Each digit is called a bit
+Position values are powers of 2
+Example:
+
+Binary number: 1011
+
+Calculation:
+
+1×2³ + 0×2² + 1×2¹ + 1×2⁰
+= 8 + 0 + 2 + 1
+= 11 (decimal)
+Decimal to Binary Conversion
+
+Example: Convert 10 to binary
+
+10 ÷ 2 = 5 remainder 0
+5 ÷ 2 = 2 remainder 1
+2 ÷ 2 = 1 remainder 0
+1 ÷ 2 = 0 remainder 1
+
+Binary = 1010
