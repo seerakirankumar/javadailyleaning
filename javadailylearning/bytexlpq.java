@@ -51,13 +51,22 @@ public class bytexlpq {
 // }
 
 
-    int n = sc.nextInt();
-    System.out.println("Multiplication Table of " +n+":");
-    for(int i=1;i<=10;i++){
-      System.out.println(n+" x "+i+" = "+n*i);
-    }
+    // int n = sc.nextInt();
+    // System.out.println("Multiplication Table of " +n+":");
+    // for(int i=1;i<=10;i++){
+    //   System.out.println(n+" x "+i+" = "+n*i);
+    // }
       
     
+  // COMPUTING BMI
+  double weight=sc.nextDouble();
+    double height=sc.nextDouble();
+     
+    double bmi =(weight*703)/(height*height);
+    System.out.printf("Your BMI is: %.2f",bmi);
+    sc.close();
   }
 }
 
+    
+        
