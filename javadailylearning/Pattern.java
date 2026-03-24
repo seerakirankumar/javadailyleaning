@@ -4,19 +4,19 @@ public class Pattern {
 
   public static void main(String[] args) {
 
-    // int m = 5;
-    // int n = 6;
+    int m = 5;
+    int n = 6;
 
-    // for(int i=1; i<=m ; i++){
-    // for(int j=1; j<=n; j++){
-    // System.out.print("*");
+    for(int i=1; i<=m ; i++){
+    for(int j=1; j<=n; j++){
+    System.out.print("*");
 
-    // }
-    // System.out.println();
-    // }
+    }
+    System.out.println();
+    }
 
-    // }
-    // }
+    }
+    
 
     // printing hallow rectangle
 
@@ -186,54 +186,54 @@ public class Pattern {
 
     // printing the pattern(number pyramid)
 
-    int n = 5;
-    for (int i = 1; i <= n; i++) {
-      for (int j = 1; j <= n - i; j++) {
-        System.out.print(" ");
-      }
+    // int n = 5;
+    // for (int i = 1; i <= n; i++) {
+    //   for (int j = 1; j <= n - i; j++) {
+    //     System.out.print(" ");
+    //   }
 
-      for (int j = 1; j <= i; j++) {
-        System.out.print(i + " ");
-      }
-      System.out.println();
-    }
+    //   for (int j = 1; j <= i; j++) {
+    //     System.out.print(i + " ");
+    //   }
+    //   System.out.println();
+    // }
 
     // print the pattern(palindromic pattern)
 
-    int m = 6;
-    for (int i = 1; i <= m; i++) {
-      for (int j = 1; j <= m - i; j++) {
-        System.out.print(" ");
-      }
-      for (int j = i; j >= 1; j--) {
-        System.out.print(j);
-      }
-      for (int j = 2; j <= i; j++) {
-        System.out.print(j);
-      }
-      System.out.println();
-    }
+    // int m = 6;
+    // for (int i = 1; i <= m; i++) {
+    //   for (int j = 1; j <= m - i; j++) {
+    //     System.out.print(" ");
+    //   }
+    //   for (int j = i; j >= 1; j--) {
+    //     System.out.print(j);
+    //   }
+    //   for (int j = 2; j <= i; j++) {
+    //     System.out.print(j);
+    //   }
+    //   System.out.println();
+    // }
 
     // printing the pattern(diamond pattern)
 
-    int k = 4;
-    for (int i = 1; i <= k; i++) {
-      for (int j = 1; j <= k - i; j++) {
-        System.out.print(" ");
-      }
-      for (int j = 1; j <= 2 * i - 1; j++) {
-        System.out.print("*");
-      }
-      System.out.println();
-    }
-    for (int i = k; i >= 1; i--) {
-      for (int j = 1; j <= k - i; j++) {
-        System.out.print(" ");
-      }
-      for (int j = 1; j <= 2 * i - 1; j++) {
-        System.out.print("*");
-      }
-      System.out.println();
-    }
+  //   int k = 4;
+  //   for (int i = 1; i <= k; i++) {
+  //     for (int j = 1; j <= k - i; j++) {
+  //       System.out.print(" ");
+  //     }
+  //     for (int j = 1; j <= 2 * i - 1; j++) {
+  //       System.out.print("*");
+  //     }
+  //     System.out.println();
+  //   }
+  //   for (int i = k; i >= 1; i--) {
+  //     for (int j = 1; j <= k - i; j++) {
+  //       System.out.print(" ");
+  //     }
+  //     for (int j = 1; j <= 2 * i - 1; j++) {
+  //       System.out.print("*");
+  //     }
+  //     System.out.println();
+  //   }
+  // }
   }
-}
