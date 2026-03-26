@@ -69,15 +69,23 @@ public class bytexlpq {
 
 
 // distance calculator
- double distance = sc.nextDouble();
-        double time = sc.nextDouble();    
+//  double distance = sc.nextDouble();
+//         double time = sc.nextDouble();    
 
-        double speedMps = distance / time;
-        double speedKmph = speedMps * 3.6;
-        double speedMph = speedMps * 2.23694;
-        System.out.printf("Speed: %.2f meters/second (m/s)\n",speedMps);
-        System.out.printf("Speed: %.2f kilometers/hour (km/h)\n",speedKmph);
-        System.out.printf("Speed: %.2f miles/hour (mph)\n",speedMph);
-    }
+//         double speedMps = distance / time;
+//         double speedKmph = speedMps * 3.6;
+//         double speedMph = speedMps * 2.23694;
+//         System.out.printf("Speed: %.2f meters/second (m/s)\n",speedMps);
+//         System.out.printf("Speed: %.2f kilometers/hour (km/h)\n",speedKmph);
+//         System.out.printf("Speed: %.2f miles/hour (mph)\n",speedMph);
+//     }
+// }
+ int minutes=sc.nextInt();
+     int totalDays = minutes / 1440;        
+        int years = totalDays / 365;           
+        int days = totalDays % 365;  
+    System.out.println(minutes+" minutes is approximately "+years+ " years and "+days+" days.");
+  }
+  
 }
         
