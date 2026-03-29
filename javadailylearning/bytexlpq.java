@@ -80,12 +80,26 @@ public class bytexlpq {
 //         System.out.printf("Speed: %.2f miles/hour (mph)\n",speedMph);
 //     }
 // }
- int minutes=sc.nextInt();
-     int totalDays = minutes / 1440;        
-        int years = totalDays / 365;           
-        int days = totalDays % 365;  
-    System.out.println(minutes+" minutes is approximately "+years+ " years and "+days+" days.");
-  }
+//  int minutes=sc.nextInt();
+//      int totalDays = minutes / 1440;        
+//         int years = totalDays / 365;           
+//         int days = totalDays % 365;  
+//     System.out.println(minutes+" minutes is approximately "+years+ " years and "+days+" days.");
+//   }
   
-}
+// }
         
+
+    int n = sc.nextInt();
+    System.out.println("Multiplication Table of " +n+":");
+    for(int i=1;i<=10;i++){
+      System.out.println(n+" x "+i+" = "+n*i);
+    }
+      
+    
+  }
+}
+ 
+
+
+ 
